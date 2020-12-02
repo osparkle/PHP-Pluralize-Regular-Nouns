@@ -15,6 +15,6 @@ function pluralize($data,$suffix=""){
 			$plural = $data . " " . $suffix . "s";
 		}
 	}
-	return $suffix;
+	return $plural;
 }
 ?>
